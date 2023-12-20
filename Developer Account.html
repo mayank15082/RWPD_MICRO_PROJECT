@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Developer Account</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+      *{
+      margin: 0;
+      padding: 0;
+    }
+    .logo1 img {
+      height: 3rem;
+    }
+    nav {
+      background-color: #3f3f3f;
+    }
+    .nav-item {
+      font-size: 18px;
+      font-weight: 500;
+      padding-left: 17px;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #343a40;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #81d3ff;
+      border-radius: 10px;
+    }
+    
+    
+
+    .about {
+      background-color: #e9e9e9;
+    }
+
+    p {
+      line-height: 1.5;
+      text-align: center;
+    }
+
+    .profile-image {
+      width: auto;
+      height: auto;
+      border-radius: auto;
+      margin: 0 auto;
+      display: block;
+    }
+
+    .profile-name {
+      font-size: 24px;
+      margin: 10px 0;
+    }
+
+    .profile-email {
+      color: #777;
+    }
+
+    .profile-bio {
+      margin-top: 20px;
+    }
+    .form-info{
+      background-color: #333;
+      color: #e9e9e9;
+      text-align: center;
+    }
+    .info {
+      width: 25%;
+      float: left;
+      color: #fdfdfb;
+      border-right: 2px solid white;
+    }
+    .info2 {
+      float: left;
+      color: #fdfdfb;
+    }
+    .fa-brands{
+      margin-right: 6px;
+    }
+    a{
+      color:white;
+     
+    }
+
+    </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark ">
+    
+      <a class="navbar-brand logo1" href="#"><img src="logo.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="mens wear.html">Men's Wear</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="womens wear.html">Women's Wear</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="Developer Account.html">About Us <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+          <button   class="btn btn-outline-primary my-2 mx-1"><a href="login.html">Login</a></button>
+        </form>
+      </div>
+    
+  </nav>
+
+ 
+  <footer class="bg-dark text-white py-4">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-md-6">
+          <div class="info2 text-center">
+
+            <h3><i class="fa-solid fa-address-card"></i><br> Contact Information</h3><br>
+            <p><b>Email</b></p>
+            <i class="fa-solid fa-envelope"></i>
+            <span>maulikpithiya4@gmail.com</span><br>
+            <i class="fa-solid fa-envelope"></i>
+            <span>mynk1508@gmail.com</span><br>
+            <i class="fa-solid fa-envelope"></i>
+            <span>rudrax12@gmail.com</span><br><br><br>
+
+
+            <p><b>Phone</b></p>
+            <i class="fa-solid fa-phone"></i>
+            <span>+91 6352743580</span><br>
+            <i class="fa-solid fa-phone"></i>
+            <span>+91 9016557317</span><br>
+            <i class="fa-solid fa-phone"></i>
+            <span>+91 8758804377</span><br> <br>
+            <p><b>Address</b></p>
+            <i class="fa-solid fa-location-dot fa-beat-fade"></i> 
+            <span>Government Polytechnic Himatnagar (624) , Sahakari jin , Himatnagar. </span>
+          </div>
+        </div>
+        
+        <div class="col-md-6">
+          <div class="form-info">
+            <form class="bg-dark">
+              <h3>Contact Us!</h3><br><br>
+              <h5>Enter your details</h5><br><br>
+              <label>Enter your name:</label>
+              <input type="text" id="contact-name" class="form-control" placeholder="Enter your name here" value=""><br>
+              <label>Enter your comment:</label><br>
+              <textarea id="comment" class="form-control" rows="4" placeholder="Enter your comment here"></textarea><br>
+              <button class="btn btn-outline-primary btn-sm" onclick="massage()">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+
+      <div class="text-center">
+        <a href="https://instagram.com/maulik__ahir_?igshid=MTNiYzNiMzkwZA==" class="fa-brands fa-instagram fa-2x mx-2"></a>
+        <a href="#" class="fa-brands fa-facebook fa-2x mx-2"></a>
+        <a href="#" class="fa-brands fa-twitter fa-2x mx-2"></a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function massage() {
+      var a = document.getElementById("contact-name").value;
+      alert("Thank you for your honest review Mr. " + a + ". We do appreciate it!");
+    }
+  </script>
+</body>
+
+</html>
